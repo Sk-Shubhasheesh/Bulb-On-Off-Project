@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On Off Project</title>
+    <style>
+      .bulb-container{
+          margin: 15px;
+          padding: 25px;
+          /* border: 1px solid red; */
+
+      }  
+    </style>
+</head>
+<body>
+    <h1>Here is My Bulb Control</h1>
+    <button onclick="turnOn()">Turn On</button>
+    <button onclick="turnOff()">Turn Off</button>
+    <button id="onOffButton" onclick="toggleBulb()">On</button>
+    <div class="bulb-container">
+        <img id="bulb" src="OFFbulb.jpg" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
